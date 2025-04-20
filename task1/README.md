@@ -31,10 +31,10 @@ This is a simple microservice that returns the current timestamp and the visitor
 6. **Then login into the docker to push the code to docker hub**
    ```bash
    docker login
-7. ** Tag the docker username**
+7. **Tag the docker username**
     ```bash
     docker tag simple-time-service yourusername/simple-time-service:latest
-8. **Then push the image to the docker
+8. **Then push the image to the docker**
    ```bash
    docker push your-username/simple-time-service:latest
 9. **Then add it to github**
