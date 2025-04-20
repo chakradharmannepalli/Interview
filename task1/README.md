@@ -25,16 +25,15 @@ This is a simple microservice that returns the current timestamp and the visitor
    docker run -p 8080:8080 simple-time-service
  ![image](https://github.com/user-attachments/assets/42bced5b-1145-4cab-ada4-8ee0bb031bac)
 
-5. **Now check whether the sever is running or not **
+5. **Now check whether the sever is running or not**
    ```bash
       curl http://localhost:8080
 6. **Then login into the docker to push the code to docker hub**
    ```bash
    docker login
-7.** Tag the docker username**
+7. ** Tag the docker username**
     ```bash
-    
-         docker tag simple-time-service your-username/simple-time-service:latest
+    docker tag simple-time-service yourusername/simple-time-service:latest
 8. **Then push the image to the docker
    ```bash
    docker push your-username/simple-time-service:latest
