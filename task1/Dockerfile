@@ -1,5 +1,5 @@
 # Use a lightweight version of Python
-FROM python:3.9-slim
+FROM python:3.12-slim
 
 # Set a non-root user
 RUN useradd -m simpleuser
@@ -10,7 +10,7 @@ WORKDIR /app
 # Copy the application code into the container
 COPY simple_time_service.py /app/
 COPY requirements.txt /app/
-
+RUN pip3 install flask
 RUN pip install --upgrade pip 
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
