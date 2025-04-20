@@ -10,7 +10,7 @@ WORKDIR /app
 # Copy the application code into the container
 COPY simple_time_service.py /app/
 COPY requirements.txt /app/
-RUN pip3 install flask
+
 RUN pip install --upgrade pip 
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
