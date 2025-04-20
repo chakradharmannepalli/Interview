@@ -38,4 +38,11 @@ This is a simple microservice that returns the current timestamp and the visitor
 8. **Then push the image to the docker
    ```bash
    docker push your-username/simple-time-service:latest
-
+9. **Then add it to github**
+   ```bash
+   git init
+   git remote add origin https://github.com/yourusername/simple-time-service.git
+   git add .
+   git commit -m "first"
+   git push -u origin master
+   
