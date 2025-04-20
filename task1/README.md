@@ -36,5 +36,6 @@ This is a simple microservice that returns the current timestamp and the visitor
     
          docker tag simple-time-service your-username/simple-time-service:latest
 8. **Then push the image to the docker
+   ```bash
    docker push your-username/simple-time-service:latest
 
