@@ -1,6 +1,7 @@
 # Use a lightweight version of Python
 FROM python:3.12-slim
 
+RUN pip install --upgrade pip 
 # Set a non-root user
 RUN useradd -m simpleuser
 
@@ -11,7 +12,6 @@ WORKDIR /app
 COPY simple_time_service.py /app/
 COPY requirements.txt /app/
 
-RUN pip install --upgrade pip 
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
