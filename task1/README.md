@@ -44,4 +44,4 @@ Before running the application, make sure you have the following installed:
    ```bash
    curl http://localhost:3000
    
-[image](https://github.com/user-attachments/assets/1360e757-ef81-41ee-a7ed-a08a7cacdedb)
+(https://github.com/user-attachments/assets/1360e757-ef81-41ee-a7ed-a08a7cacdedb)
