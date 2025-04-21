@@ -1,29 +1,27 @@
-# Use a lightweight version of Python
-FROM python:3.12-slim
+# Use the official Node.js image as a base image
+FROM node:18-alpine
 
-RUN pip install --upgrade pip 
-# Set a non-root user
-RUN useradd -m simpleuser
+# Create a non-root user and switch to that user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
-# Set the working directory
+# Set the working directory to /app
 WORKDIR /app
 
-# Copy the application code into the container
-COPY simple_time_service.py /app/
-COPY requirements.txt /app/
+# Copy package.json and install dependencies
+COPY package*.json ./
+RUN npm install
 
-# Install the required Python packages
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy the rest of the application
+COPY . .
 
 # Change ownership of the files to the non-root user
-RUN chown -R simpleuser:simpleuser /app
+RUN chown -R appuser:appgroup /app
 
 # Switch to the non-root user
-USER simpleuser
+USER appuser
 
-# Expose port 8080
-EXPOSE 8080
+# Expose the port the app will run on
+EXPOSE 3000
 
-# Run the Flask application
-CMD ["python", "simple_time_service.py"]
-
+# Run the application
+CMD ["node", "app.js"]
