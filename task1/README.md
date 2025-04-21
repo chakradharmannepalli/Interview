@@ -30,7 +30,7 @@ Before running the application, make sure you have the following installed:
    ```bash
    sudo apt install npm
 3. **Intiate npm and install nodejs**
-   ```bah
+   ```bash
    npm init -y
    npm install express
    npm install
