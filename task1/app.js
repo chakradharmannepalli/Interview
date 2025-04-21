@@ -15,3 +15,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`SimpleTimeService listening at http://localhost:${port}`);
 });
+
