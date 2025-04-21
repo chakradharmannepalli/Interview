@@ -43,5 +43,4 @@ Before running the application, make sure you have the following installed:
 5. **To check whether app is running or not**
    ```bash
    curl http://localhost:3000
-   
-(https://github.com/user-attachments/assets/1360e757-ef81-41ee-a7ed-a08a7cacdedb)
+   ![Screenshot 2025-04-21 121147](https://github.com/user-attachments/assets/7c6bd743-6e1d-4acb-90d3-37d56644bf57)
