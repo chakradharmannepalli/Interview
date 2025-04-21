@@ -66,11 +66,8 @@ An AWS Account with sufficient permissions to create VPCs, ECS, Load Balancers, 
 8. **To access the application**
    ```bash
    curl http://<load_balancer_url>
-Output:
-    {
-  "timestamp": "2025-04-21T14:30:00Z",
-  "ip": "203.0.113.1"
-    }
+![Screenshot 2025-04-21 121147](https://github.com/user-attachments/assets/3c38078b-70a1-4a79-8044-9e55a95cb572)
+
 
 9. **If you want to tear down the infrastructure after testing, you can run**
     ```bash
