@@ -57,7 +57,7 @@ An AWS Account with sufficient permissions to create VPCs, ECS, Load Balancers, 
 5. **The use teraform init to start the terraform**
    ```bash
    terraform init
-6. **To check the plan and to check if there are any errors check with terraform plan **
+6. **To check the plan and to check if there are any errors check with terraform plan**
    ```bash
    terraform plan
 7. **Finally execute the terraform apply**
