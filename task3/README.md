@@ -3,6 +3,6 @@
     terraform init
 
 2. **Verify that the state is stored remotely**
-  ```bah
-    terraform plan
-    terraform apply
+  ```bash
+     terraform plan
+     terraform apply
