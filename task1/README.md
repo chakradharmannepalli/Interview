@@ -40,7 +40,10 @@ Before running the application, make sure you have the following installed:
    ```bash
    docker build -t simple-time-service .
    docker run -d -p 3000:3000 simple-time-service
-5. **To check whether app is running or not**
+5. **Change the inbound traffic in aws security group to allow in port 3000
+6. **To check whether app is running or not**
    ```bash
    curl http://localhost:3000
-  ![Screenshot 2025-04-21 121147](https://github.com/user-attachments/assets/7c6bd743-6e1d-4acb-90d3-37d56644bf57)
+  ![Screenshot 2025-04-26 213527](https://github.com/user-attachments/assets/a9007c6b-68b5-47a0-bb83-131c28eaef7d)
+  ![image](https://github.com/user-attachments/assets/96317665-ec36-4645-bb06-01ed66725eca)
+
