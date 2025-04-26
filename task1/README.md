@@ -45,5 +45,5 @@ Before running the application, make sure you have the following installed:
    ```bash
    curl http://localhost:3000
   ![Screenshot 2025-04-26 213527](https://github.com/user-attachments/assets/a9007c6b-68b5-47a0-bb83-131c28eaef7d)
-  ![image](https://github.com/user-attachments/assets/b2a656cb-9a1a-4311-bd93-9da7bcbdbf6a)
+  ![image](https://github.com/user-attachments/assets/3e7e61c4-55ab-4194-be32-27f28eaffa37)
 
