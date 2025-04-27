@@ -1,12 +1,7 @@
 # SimpleTimeService
 
 **SimpleTimeService** is a simple microservice that provides the current timestamp and the IP address of the visitor in a JSON response. This service is designed as a Node.js application and is containerized using Docker.
-task1/
-├── Dockerfile
-├── README.md
-├── app.js
-├── package-lock.json
-└── package.json
+
 ## Features
 - Returns a JSON response containing:
   - `timestamp`: The current date and time.
