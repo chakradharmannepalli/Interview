@@ -40,7 +40,7 @@ An AWS Account with sufficient permissions to create VPCs, ECS, Load Balancers, 
    cd Interview/task2/terraform
 3. **Install aws cli**
    ```bash
-   sudo snap aws-cli --classic
+   sudo snap install aws-cli --classic
 4. **Configure aws cli**
   This command will ask for:
 
